@@ -3,19 +3,17 @@ import Thumbnail from "./Thumbnail";
 import Button from './Button';
 import { Container, Row, Col } from "./Grid";
 
-export function BookList({ children }) {
-    return <ul className="list-group mt-4">{children}</ul>;
-}
 
 
-export function BookListItem({
+
+export function BookListSaved({
     id,
     thumbnail,
     title,
     description,
     href,
     authors,
-    handleSave
+    handleDelete
 }) {
     return (
         <li className="list-group-item m-1">
@@ -33,8 +31,8 @@ export function BookListItem({
                                 Go to Book!
             </a>
                         </Button>
-                        <Button onClick={() => handleSave(id, title, authors, description, thumbnail, href)}>
-                            Save!
+                        <Button onClick={() => handleDelete(id)}>
+                            Delete Book!
                         </Button>
                     </Col>
                 </Row>

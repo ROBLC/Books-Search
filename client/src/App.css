@@ -1,32 +1,21 @@
-.App {
-  text-align: center;
+body {
+  background-image: url("https://st2.depositphotos.com/5416734/12236/v/950/depositphotos_122365452-stock-illustration-hand-drawn-books-vector-illustration.jpg")
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+nav  {
+  background-color: #090900;
+  color: #f1f1f1;
+
+}
+nav a {
+  color: #f1f1f1;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.jumbotron a {
+  color: #090900
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button a {
+  color: #090900
 }
