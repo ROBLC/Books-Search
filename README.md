@@ -1,6 +1,6 @@
 # Books-Search
-##### App built with MERN stack that allows users to search for books from the google API and save them for later review
-
+##### App built with MERN stack that allows users to search for books from the google API and save them for later revie
+###### [Check it out](https://shrouded-eyrie-27109.herokuapp.com/)
 ## Search
 ##### Search for a book or any search term to get a few books to look at
 
